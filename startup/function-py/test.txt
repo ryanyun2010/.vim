@@ -1,0 +1,37 @@
+python import vim
+function! Clear()
+python << endOfPython
+vim.current.buffer[:]=[""]
+endOfPython
+endfunction
+function! Html()
+python << endOfPython
+vim.current.buffer[:]=["<html>","<head>","<title></title>","</head>","<body>","</body>","</html>"]
+endOfPython
+endfunction
+function! Add()
+python << endOfPython
+num =int(vim.current.buffer[:][0])+int(vim.current.buffer[:][1])
+print(num);
+endOfPython
+endfunction
+command! Clear call Clear()
+command! Html call Html()python import vim
+function! Clear()
+python << endOfPython
+vim.current.buffer[:]=[""]
+endOfPython
+endfunction
+function! Html()
+python << endOfPython
+vim.current.buffer[:]=["<html>","<head>","<title></title>","</head>","<body>","</body>","</html>"]
+endOfPython
+endfunction
+function! Add()
+python << endOfPython
+num =int(vim.current.buffer[:][0])+int(vim.current.buffer[:][1])
+print(num);
+endOfPython
+endfunction
+command! Clear call Clear()
+command! Html call Html()
