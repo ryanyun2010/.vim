@@ -7,8 +7,8 @@ nnoremap m2 yy$pvr-
 nnoremap m3 01###<esc>
 nnoremap x i<delete><esc>
 nnoremap <enter> zak<cr>
-nnoremap m<Down> ddjP
-nnoremap m<Up> ddkP
+nnoremap m<Down> mmGo<esc>'mddjPmmGdd'm
+nnoremap m<Up> mmGo<esc>'mddkPmmGdd'm
 nnoremap <leader>" viw<esc>a"<esc>bi"<esc>lel
 nnoremap <leader>t viw<esc>a><esc>bi<<esc>lel
 nnoremap lb 0i--<esc>f,xi<enter><esc>
@@ -21,5 +21,5 @@ nnoremap == yyA<C-r>=<C-r>"<delete><delete><cr>
 nnoremap <up> gk
 nnoremap <down> gj
 nnoremap k gk
-nnoremap j gj
 nnoremap ; :
+nnoremap j gj
