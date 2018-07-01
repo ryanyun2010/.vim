@@ -32,3 +32,5 @@ autocmd filetype tex inoremap ;tex \documentclass{article}<enter>\begin{document
 inoremap <down> <esc>gja
 inoremap < <<esc>:w<cr>i<right>
 inoremap < <<esc>:w<cr>i<right>
+inoremap ;<up> <esc>mmGo<esc>'mddkPmmGdd'ma
+inoremap ;<down> <esc> ddp
