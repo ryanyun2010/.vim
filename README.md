@@ -20,12 +20,12 @@
 #### rm -r vimfiles
 #### mkdir vimfiles
 #### cd vimfiles
-#### cd .vim
 #### git clone "https://github.com/ryanyun2010/.vim"
 #### rm vimrc
 #### rm gvimrc
 #### touch vimrc
 #### touch gvimrc
+#### cd ..
 #### mkdir .vim
 #### cd .vim
 #### git clone "https://github.com/ryanyun2010/.vim"
