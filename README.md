@@ -2,6 +2,7 @@
 ## The files are my vim and gvim config
 ## To download and set as vim config
 ### MAC and Linux
+#### in the terminal type
 #### cd
 #### rm -r .vim
 #### mkdir .vim
@@ -15,6 +16,7 @@
 #### mv .vim/.vimrc ~/.vimrc
 #### mv .vim/.gvimrc ~/.gvimrc
 ### Windows
+#### in the terminal type
 #### cd
 #### rm -r .vim
 #### rm -r vimfiles
