@@ -1,4 +1,4 @@
-# Warning:running will perminantly delete all other vim, macvim and gvim config
+# Warning:running will perminantly delete all other vim, macvim, neovim and gvim config
 ## The files are my vim and gvim config
 ## To download and set as vim config
 ### MAC and Linux
